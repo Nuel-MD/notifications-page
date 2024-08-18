@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href=" styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>
+      Notifications
+      <span> 3</span>
+      </h1>
+      <div id="button">Mark all as read</div>
+    </div>
+    <div class="content">
+      <div class="post color">
+        <div class="image">
+          <img src="./assets/images/avatar-mark-webber.webp" alt="Mark webber image" >
+        </div>
+        <div class="about">
+          <div class="note"><span class="item1">Mark Webber</span> reacted to your recent post <span class="item2">My first tournament today!</span>
+            <span><div  class="dot"></div ></span>
+            </div>
+          <p class="time">1m ago</p>
+        </div>
+      </div>
+
+
+      <div class="post color">
+        <div class="image">
+          <img src="./assets/images/avatar-angela-gray.webp" alt="Angela Gray image" >
+        </div>
+        <div class="about">
+          <div class="note"><span class="item1">Angela Gray </span>followed you 
+            <span><div  class="dot"></div ></span>
+            </div>
+          <p class="time">5m ago</p>
+        </div>
+      </div>
+      <div class="post color">
+        <div class="image">
+          <img src="./assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson picture">
+        </div>
+        <div class="about">
+          <div class="note"><span class="item1">Jacob Thompson </span>has joined your group <span class="chess">Chess Club</span>
+            <span><div  class="dot"></div ></span>
+            </div>
+          <p class="time">1 day ago</p>
+        </div>
+      </div>
+      <div class="post">
+        <div class=" image1">
+          <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin picture">
+        </div>
+        <div class="about">
+          <p class="note"><span class="item1">Rizky Hasanuddin </span>sent you a private message</p>
+          <p class="time">5 days ago</p>
+          <div class="message">
+            <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+              I'm already having lots of fun and improving my game.</p>
+          </div>
+        </div>
+      </div>
+      <div class="post spread">
+        <div class="image">
+          <img src="./assets/images/avatar-kimberly-smith.webp" alt="imberly Smith picture">
+        </div>
+        <div class="about">
+          <p class="note"><span class="item1"> Kimberly Smith </span>commented on your picture</p>
+          <p class="time">1 week ago</p>
+        </div>
+        <div class="picture">
+          <img src="./assets/images/image-chess.webp" alt="chess picture">
+        </div>
+      </div>
+      <div class="post">
+        <div class="image">
+          <img src="./assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson picture">
+        </div>
+        <div class="about">
+          <p class="note"><span class="item1">Nathan Peterson </span>reacted to your recent post <span class="item2">5 end-game strategies to increase your win rate
+          </span></p>
+          <p class="time">2 weeks ago</p>
+        </div>
+      </div>
+      <div class="post">
+        <div class="image">
+          <img src="./assets/images/avatar-anna-kim.webp" alt="Anna Kim picture">
+        </div>
+        <div class="about">
+          <p class="note"><span class="item1">Anna Kim </span>left the group <span class="chess">Chess Club</span></p>
+          <p class="time">2 weeks ago</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

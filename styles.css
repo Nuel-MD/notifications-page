@@ -1,0 +1,170 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+body{
+    margin: 0px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-color: hsl(0, 0%, 100%);
+    
+}
+.content{
+    flex: 1;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.post{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 15px;
+    
+}
+.color{
+    background-color: hsla(211, 68%, 94%, 0.5);
+    border-radius: 10px;
+    box-shadow: 3px -3px 1px hsla(205, 33%, 90%, 0.5);
+}
+.post .image{
+    display: flex;
+    align-items: center;
+}
+.image1{
+    display: flex;
+    align-items: start;
+    padding-top: 4px;
+}
+.image>img{
+    height: 60px;
+}
+.image1>img{
+    height: 60px;
+}
+.spread {
+    display: flex;
+    justify-content: space-between;
+}
+.picture{
+    display: flex;
+    cursor: url('./assets/images/pointinghand.svg'), pointer;
+
+}
+.picture img{
+    height: 60px;
+    align-self: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header div{
+    align-self: center;
+}
+h1{
+    color: hsl(224, 21%, 14%);
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 28px;
+}
+.item1:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: url('./assets/images/pointinghand.svg'), pointer;
+}
+.header span{
+    background-color: hsl(219, 85%, 26%);
+    padding:2px;
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+
+
+}
+#button{
+    color: hsl(219, 12%, 42%);
+}
+#button:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: url('./assets/images/pointinghand.svg'), pointer;
+}
+.post p{
+    margin: 0px;
+}
+.note{
+    
+    margin-bottom: 10px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 3;
+    color: hsl(219, 12%, 42%);
+
+}
+.item1{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+}
+.time{
+    color: hsl(219, 14%, 63%);
+}
+.dot{
+    height: 8px;
+    width: 8px;
+    background-color: hsl(1, 90%, 64%);
+    display: inline-block;
+    border-radius: 50%;
+}
+.chess{
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+.chess:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: url('./assets/images/pointinghand.svg'), pointer;
+}
+.message{
+    border: 1px solid hsl(211, 68%, 94%);
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.message:hover {
+    background-color: hsl(205, 33%, 90%);
+    cursor: url('./assets/images/pointinghand.svg'), pointer;
+}
+.item2{
+    font-weight: 800;
+}
+.item2:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: url('./assets/images/pointinghand.svg'), pointer;
+}
+@media(min-width: 500px){
+    body{
+        background-color: hsl(210, 60%, 98%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 50px;
+    }
+    .container{
+        background-color: hsl(0, 0%, 100%);
+        max-width: 750px ;
+        border-radius: 15px;
+    }
+}
